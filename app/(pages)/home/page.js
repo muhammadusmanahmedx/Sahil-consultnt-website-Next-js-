@@ -36,7 +36,7 @@ export default function Home() {
 
 
   return (
-    <div className='lg:mb-[-12rem]'>
+    <div className='lg:mb-[-12rem] w-fit'>
       <HeroSection />
       <CEOMessageSection/>
       <div className='mt-22'>
@@ -45,28 +45,6 @@ export default function Home() {
       </div>
       <ServicesAndBanner/>
 
-      {/* <div
-  className="container mx-auto  p-4 relative bg-cover bg-center"
-  style={{
-    backgroundImage: "url('/teambg1.jpg')",
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  }}
->
-  <div className="absolute inset-0  bg-white opacity-70"></div>
-  <div className="relative mt-20 z-10">
-    <h1 className="text-sm text-center text-blue-900">Expert Team Members</h1>
-    <h1 className="text-sm mt-2 text-center text-blue-900 flex items-center justify-center">
-      <span className="inline-block w-8 mr-2 border-t-1 border-blue-900"></span>
-      <StarIcon style={{ color: '#032b66', fontSize: '16px' }} />
-      <span className="inline-block ml-2 w-8 border-t-1 border-blue-900"></span>
-    </h1>
-    <h2 className="sm:text-2xl md:text-4xl p-4 md:p-8 font-bold text-center text-blue-900 mb-6">
-      Our Team at Your Service
-    </h2>
-    <ProfileCircle profiles={profilesData} />
-  </div>
-</div> */}
 
 <div className="mt-32">
         <VisaProcessComponent/>
