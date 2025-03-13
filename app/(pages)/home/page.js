@@ -36,7 +36,7 @@ export default function Home() {
 
 
   return (
-    <div className='lg:mb-[-12rem] w-fit'>
+    <div className='lg:mb-[-12rem] w-full'>
       <HeroSection />
       <CEOMessageSection/>
       <div className='mt-22'>
