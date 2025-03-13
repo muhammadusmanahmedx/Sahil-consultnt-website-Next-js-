@@ -126,7 +126,7 @@ export default function Visaslider() {
   const cardWidth = 100 / cardsPerRow;
 
   return (
-    <div className="container  mx-auto px-4  py-8 ">
+    <div className="container  bg-white mx-auto px-4  py-8 ">
       <h1 className="text-sm text-center text-blue-900">VISA CATEGORIES</h1>
       <h1 className="text-sm mt-2 text-center text-blue-900 flex items-center justify-center">
         <span className="inline-block w-8 mr-2 border-t-1 border-blue-900"></span>
