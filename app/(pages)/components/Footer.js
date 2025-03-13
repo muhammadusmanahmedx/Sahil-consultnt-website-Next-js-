@@ -14,10 +14,8 @@ import {
 
 export default function Footer() {
   return (
-    <div className="flex flex-col min-h-screen">
-      <main className="flex-grow">
-        {/* Main content would go here */}
-      </main>
+   
+      
 
       <footer className="tracking-wide bg-gradient-to-b from-[#032b66] to-[#001a4d] pt-12 pb-4 px-4 sm:px-10 text-white">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 max-w-screen-xl mx-auto">
@@ -180,6 +178,6 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
+   
   );
 }
