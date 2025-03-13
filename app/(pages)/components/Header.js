@@ -186,7 +186,7 @@ const Header = () => {
     </div>
 
       {/* Navigation Bar */}
-      <div className="bg-white border-b border-gray-200 py-2 lg:mr-20 lg:ml-14">
+      <div className="bg-white border-b w-full border-gray-200 py-2 lg:mr-20 lg:ml-14">
         <div className="flex justify-between items-center px-2 sm:px-3 max-w-full">
           {/* Logo on Left */}
           <div className="flex items-center gap-1">

@@ -53,7 +53,7 @@ export default function FAQAccordion() {
 
   return (
     <div className="w-full lg:mb-[12rem]  max-w-3xl mx-auto px-6 py-3" >
-      <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-blue-700">
+      <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-[#032b66]">
         Frequently Asked Questions
       </h2>
       <div className="space-y-3">
@@ -64,7 +64,7 @@ export default function FAQAccordion() {
           >
             {/* FAQ Header */}
             <div
-              className="relative z-10 w-full cursor-pointer flex justify-between items-center px-6 py-5 bg-blue-600 hover:bg-blue-700 transition"
+              className="relative z-10 w-full cursor-pointer flex justify-between items-center px-6 py-5 bg-[#032b66] hover:bg-[#032b66/30] transition"
               onClick={() => toggleAccordion(index)}
             >
               <span className="flex-grow text-lg font-medium text-white">
@@ -72,6 +72,7 @@ export default function FAQAccordion() {
               </span>
               <ExpandMoreOutlinedIcon
                 sx={{
+                    color:"white",
                   transform:
                     openIndex === index ? "rotate(180deg)" : "rotate(0deg)",
                   transition: "transform 0.2s ease-in-out",
@@ -82,7 +83,7 @@ export default function FAQAccordion() {
             <div
               className={`overflow-hidden transition-all duration-300 ${
                 openIndex === index
-                  ? "max-h-60 p-4 bg-blue-50 text-blue-900"
+                  ? "max-h-60 p-4 bg-blue-50 text-[#032b66]"
                   : "max-h-0"
               }`}
             >
