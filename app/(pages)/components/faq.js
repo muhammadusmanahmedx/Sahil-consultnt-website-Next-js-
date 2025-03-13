@@ -15,17 +15,16 @@ export default function FAQAccordion() {
     };
 
     return (
-        <div className="max-w-2xl mx-auto p-4">
-            <h2 className="text-2xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
+        <div className="w-full max-w-md sm:max-w-xl mx-auto px-4 sm:px-6 py-6">
+            <h2 className="text-xl sm:text-2xl font-bold mb-6 text-center">Frequently Asked Questions</h2>
             <div className="space-y-2">
                 {faqs.map((faq, index) => (
-                    <div key={index} className={`rounded-lg shadow-md overflow-hidden transition-all duration-300 ${faq.isHovered ? 'shadow-lg' : ''}`}
-                    >
+                    <div key={index} className="rounded-lg shadow-md overflow-hidden transition-all duration-300">
                         <button
-                            className="w-full flex justify-between items-center border-b p-4 bg-white hover:bg-white"
+                            className="w-full flex justify-between items-center border-b p-3 sm:p-4 bg-white hover:bg-gray-50"
                             onClick={() => toggleAccordion(index)}
                         >
-                            <span className="text-lg font-medium">{faq.question}</span>
+                            <span className="text-sm sm:text-lg font-medium">{faq.question}</span>
                             <ExpandMoreOutlinedIcon
                                 sx={{
                                     transform: openIndex === index ? "rotate(180deg)" : "rotate(0deg)",
@@ -34,7 +33,7 @@ export default function FAQAccordion() {
                             />
                         </button>
                         {openIndex === index && (
-                            <div className="p-4    bg-gray-100 ">{faq.answer}</div>
+                            <div className="p-3 sm:p-4 bg-gray-100">{faq.answer}</div>
                         )}
                     </div>
                 ))}
