@@ -10,9 +10,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className='{inter.className} bg-white'>
         <Header />
-        <main className="bg-white">{children}</main>
+        <main className="">{children}</main>
 
         {/* WhatsApp Floating Button */}
         <a href="https://wa.me/923316120479?text=Hello,%20I%20want%20to%20contact%20you!" 
