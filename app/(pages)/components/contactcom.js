@@ -87,7 +87,7 @@ const ContactSection = () => {
   };
 
   return (
-    <div className="w-full bg-white mt-26 mb-[-90px] px-8">
+    <div className="w-full bg-white mt-26  px-8">
       <div className="container mx-auto flex flex-col md:flex-row gap-16">
         {/* Left Section: Quick Contact Info */}
         <div className="w-full md:w-1/2 space-y-8">
@@ -235,7 +235,7 @@ const ContactSection = () => {
       </div>
 
       {/* Full Width Google Map */}
-      <div className="w-full sm:h-112 lg:mb-[-22rem] sm:mb-22 md:h-112 mt-12">
+      <div className="w-full sm:h-112  sm:mb-22 md:h-112 mt-12">
         <iframe
           className="w-full h-full"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345090944!2d73.15796968317943!3d33.652000021948766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzMuNjUyMDAwMjE5NDg3NzYyMjM0!5e0!3m2!1sen!2s!4v1614049672709"

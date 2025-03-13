@@ -52,7 +52,7 @@ export default function FAQAccordion() {
   };
 
   return (
-    <div className="w-full lg:mb-[12rem] mt-[-5rem] max-w-3xl mx-auto px-6 py-8" >
+    <div className="w-full lg:mb-[12rem]  max-w-3xl mx-auto px-6 py-3" >
       <h2 className="text-2xl sm:text-3xl font-bold mb-6 text-center text-blue-700">
         Frequently Asked Questions
       </h2>

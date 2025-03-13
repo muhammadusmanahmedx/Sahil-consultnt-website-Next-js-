@@ -36,7 +36,7 @@ export default function About(){
       ];
 
     return(
-       <div className="lg:mb-[-12rem]">
+       <div className="">
         <ImmigrationServicesSection/>
         <div className="mt-32">
         <CEOMessageSection/>
